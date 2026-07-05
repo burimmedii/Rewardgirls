@@ -1,0 +1,6 @@
+document.getElementById('cta-button').addEventListener('click', function() {
+    const affiliateLink = "YOUR_LINK_HERE";
+    
+    // Simple logic: clicking the button redirects the user
+    window.location.href = affiliateLink;
+});
