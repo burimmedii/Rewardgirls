@@ -26,11 +26,7 @@ const affiliateButtonIds = [
 ];
 
 function getDailyGiftCardCount() {
-  const now = new Date(
-  new Date().toLocaleString("en-US", {
-    timeZone: "Pacific/Pago_Pago"
-  })
-);
+  const now = new Date();
   const midnight = new Date(now);
   midnight.setHours(0, 0, 0, 0);
   const dayProgress = (now - midnight) / (24 * 60 * 60 * 1000);
