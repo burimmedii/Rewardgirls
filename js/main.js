@@ -28,7 +28,7 @@ const affiliateButtonIds = [
 function getDailyGiftCardCount() {
   const now = new Date(
   new Date().toLocaleString("en-US", {
-    timeZone: "America/New_York"
+    timeZone: "Pacific/Pago_Pago"
   })
 );
   const midnight = new Date(now);
